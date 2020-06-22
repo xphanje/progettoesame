@@ -581,13 +581,11 @@ footer h2 {
     }
     .sfondi {
     width: 100%;
-    height: 250px;
+    height: 100px;
     }
     #sfondoPoleDance {
         background: url(img/poledance.jpg) no-repeat center center;
         width: 100%;
-        background-size: auto;
-	height: 100px;
     }
     #sfondoAerialSilk {
         background: url(img/aerialsilk.png) no-repeat center center;
