@@ -552,7 +552,7 @@ footer h2 {
 }
 
 /*    PER ALTRI DISPOSITIVI    */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 2000px) {
     
     #acrobatic.sfondo1 {
         background: url(img/sfondomobile.jpg) no-repeat center center fixed;
