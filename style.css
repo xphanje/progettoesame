@@ -196,6 +196,7 @@ header img {
     position: fixed;
     top: 13px;
     right: 42px;
+    z-index: 999;
 }
 #bar1 {
     
