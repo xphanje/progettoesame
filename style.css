@@ -192,10 +192,13 @@ header img {
 }
 
 /*    ICONA MENU    */
-#bar1 {
+#aprichiudi {
     position: fixed;
-    right: 42px;
     top: 13px;
+    right: 42px;
+}
+#bar1 {
+    
     z-index: 999;
     cursor: pointer;
     width: 28px;
@@ -205,9 +208,7 @@ header img {
     transition: 0.4s;
 }
 #bar2 {
-    position: fixed;
-    right: 42px;
-    top: 22px;
+    
     z-index: 999;
     cursor: pointer;
     width: 28px;
@@ -217,9 +218,7 @@ header img {
     transition: 0.4s;
 }
 #bar3 {
-    position: fixed;
-    right: 42px;
-    top: 31px;
+    
     z-index: 999;
     cursor: pointer;
     width: 28px;
@@ -553,7 +552,19 @@ footer h2 {
 
 /*    PER ALTRI DISPOSITIVI    */
 @media screen and (max-width: 1024px) {
+    header {
+        height: 100px;
+        display: flex;
+        align-items: center;
+    }
+    header img {
+        height: 100px;
+        width: 100px;
+    }
+    #bar1, #bar2, #bar3 {
+        width: 80px;
     
+    }
     #acrobatic.sfondo1 {
         background: url(img/sfondomobile.jpg) no-repeat center center;
         background-size: cover;
